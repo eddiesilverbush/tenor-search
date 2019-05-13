@@ -9,7 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "express-handlebars": "^3.0.2"
+    "express-handlebars": "^3.0.2",
+    "tenorjs": "^1.0.7"
   },
   "devDependencies": {},
   "description": ""
