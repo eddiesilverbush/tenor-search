@@ -8,6 +8,10 @@ const Tenor = require("tenorjs").client({
   "Filter": "high", // "off", "low", "medium", "high", not case sensitive
   "Locale": "en_US", // Your locale here, case-sensitivity depends on input
 });
+
+// public
+app.use(express.static('public'));
+
 // App Setup
 const app = express();
 
